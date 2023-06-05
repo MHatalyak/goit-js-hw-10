@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.loader {
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+}
+
+#breed_selector {
+  margin-bottom: 20px;
+}
+
+#breed_name {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#breed_description {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#breed_image {
+  max-height: 520px;
+}
+
+.temperament {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+
+.text {
+  font-weight: bold;
+  margin-right: 5px;
+}
