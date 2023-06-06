@@ -8,6 +8,17 @@
 
 .loader {
   font-weight: bold;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+  height: 0;
+  width: 0;
 }
 
 .error {
