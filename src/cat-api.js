@@ -28,7 +28,9 @@ function fetchBreeds() {
         breedSelector.appendChild(option);
       }
 
-      showBreedInfo(0);
+      //   showBreedInfo(0);
+      const hideSpan = document.querySelector('.text');
+      hideSpan.classList.add('hide');
     })
     .catch(handleError)
     .finally(hideLoader);
@@ -44,6 +46,8 @@ function showBreedInfo(index) {
   document.getElementById('breed_temperament').textContent = breed.temperament;
 
   hideLoader();
+  const hideSpan = document.querySelector('.text');
+  hideSpan.classList.remove('hide');
 }
 
 function showLoader() {
